@@ -1,4 +1,4 @@
-public class Zapato {
+public abstract class Zapato {
 
     private String marca;
     private float precio;
@@ -25,6 +25,8 @@ public class Zapato {
     public void setTalla(int talla) {
         this.talla = talla;
     }
+
+    public abstract String obtenerCuidado();
 
     @Override
     public String toString() {

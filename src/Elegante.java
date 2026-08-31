@@ -14,6 +14,10 @@ public class Elegante extends Zapato {
         this.tieneHebilla = tieneHebilla;
     }
 
+    public String obtenerCuidado(){
+        return "Limpiar con un paño húmedo.";
+    };
+
     @Override
     public String toString() {
         if(tieneHebilla == true){
@@ -21,5 +25,6 @@ public class Elegante extends Zapato {
         } else {
             return super.toString() + ", sin Hebilla";
         }
+
     }
 }

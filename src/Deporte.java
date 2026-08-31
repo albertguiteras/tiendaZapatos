@@ -22,6 +22,10 @@ public class Deporte extends Zapato{
         this.tipoSuela = tipoSuela;
     }
 
+    public String obtenerCuidado(){
+        return "Limpiar a fondo o en la lavadora.";
+    };
+
     @Override
     public String toString() {
         return  super.toString() +

@@ -22,6 +22,10 @@ public class Casual extends Zapato {
         this.tipoCierre = tipoCierre;
     }
 
+    public String obtenerCuidado(){
+        return "Limpiar con productos de limpieza.";
+    };
+
     @Override
     public String toString() {
         return  super.toString() +

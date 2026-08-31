@@ -13,6 +13,16 @@ Ejemplo: la categoría Elegante -> boolean tieneHebilla;
 En ese caso, no olvidar modificar el toString() y añadir los métodos pertinentes (getters y setters)
 en la clase hija (getters-setters de los atributos específicos, e incluirlos en el toString)*/
 
+/*LAB ABSTRACT ZAPATERIA
+
+- Probar a instanciar la clase madre Zapato. Qué pasa?
+- Hacer la clase madre abstracta. Probar a instanciar la clase madre Zapato. Qué pasa?
+- Crear un méto/do abstracto en la clase madre que hereden las clases hijas y se implemente de forma diferente en cada una.
+  Ejemplo: mantenimiento o cuidado específico para cada tipo de calzado (Casual, Deporte, Elegante)
+-Desde el main(), ejecutar el méto/do abstracto para cada clase (como en la biblioteca, titulo + datoEspecifico)*/
+
+
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -44,7 +54,11 @@ public class Main {
 
         System.out.printf("\nPrecio total de los zapatos: %.2f €\n", precioTotal);
 
-        /*System.out.println("\n" + tiendaZapatos);*/
+        //LISTA  + ABSTRACT
+        System.out.println("\n***LISTA DE ZAPATOS + ABSTRACT***");
+        for  (Zapato zap : tiendaZapatos) {
+            System.out.println("-> " + zap + ", tipoMantenimiento: " + zap.obtenerCuidado());
+        }
 
     }
 }
