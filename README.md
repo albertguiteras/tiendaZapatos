@@ -1,4 +1,4 @@
-# Tienda de Zapatos — Gestión Polimórfica y Clases Abstractas
+# Lab: Tienda de Zapatos — Gestión Polimórfica y Clases Abstractas
 
 ## 📖 Descripción del Laboratorio
 
@@ -19,6 +19,7 @@ Sistema de gestión de calzado aplicando herencia, polimorfismo y clases abstrac
 
 - **Java 17+**
 - **IntelliJ IDEA**
+- **Herencia y Polimorfismo**
 
 ---
 
